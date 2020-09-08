@@ -30,7 +30,7 @@ function createPost(post){
      });
 }
 
-
+//then and catch take function as argument
 createPost({title:'diet', body:'exercise is the key'})
     .then(getPosts)
     .catch(err => console.log(err));
